@@ -8,10 +8,10 @@ const config = {
   title: 'Logos SDK',
   tagline: 'Compose secure, modular messaging apps with the Logos Core SDK.',
   url: 'https://logos.example.com',
-  baseUrl: '/logos-core-poc/',
+  baseUrl: '/logos-website/',
   deploymentBranch: 'gh-pages',
   organizationName: 'logos-co',
-  projectName: 'logos-core-poc',
+  projectName: 'logos-website',
   favicon: 'img/favicon.ico',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -27,7 +27,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: 'docs',
-          editUrl: 'https://github.com/logos-co/logos-core-poc/edit/main/website/',
+          editUrl: 'https://github.com/logos-co/logos-website/edit/main/website/',
         },
         blog: false,
         theme: {
